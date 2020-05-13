@@ -9,12 +9,86 @@ body{
   border-color: White;
   height: 150px;
   width: 150px;
-  margin-top: 20px;
-  margin-left: 500px;
+}
+
+h1
+{
+font-family: 'Satisfy';font-size: 50px;
+color: #003333;
+}
+
+.NewTable{
+  border-collapse: collapse;
+  border-style: none;
+}
+
+.NTR{
+  background-color: #92DFF3;
+  font-size: 30px;
+}
+
+.Onea{
+  text-decoration: none;
+  color: #003333;
+  padding: 15px;
+  font-size: 25px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
 
 }
 
+.Onea:link, .Onea:visited {
+  background-color: #009797;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+.Onea:hover, .Onea:active {
+  background-color: #2C3E50;
+}
+
+.AI{
+  display: inline;
+  border: 5px;
+  background-color: #92DFF3;
+  padding: 20px;
+  border-radius: 0;
+  color: #003333;
+  margin: 130px;
+  border-style: outset;
+}
+
+.DKNW{
+  background-color: #92DFF3;
+}
+.PAI{
+  display: inline;
+  border: 5px;
+  background-color: #92DFF3;
+  padding: 20px;
+  border-radius: 0;
+  color: #003333;
+  border-style: outset;
+}
+
+.ASDF{
+  border-collapse: collapse;
+}
+.IAP{
+  border: 5px;
+  background-color: #92DFF3;
+  padding: 10px;
+  border-radius: 0;
+  color: #003333;
+  border-style: inset;
+  text-align: center;
+
+
+}
 
 .CLOUD{
 float: right;
@@ -33,56 +107,15 @@ margin-left: 100px;
 
 .btn:hover {background: #eee;}
 
-.San{
-  display: inline;
-  background-color: #009797;
-   color:  white;
-   padding: 5px 20px;
-   text-align: center;
-   text-decoration: none;
 
-   border-style: solid;
-   border-color: White;
-   font-size: 16px;
-   margin-left: 320px;
+.DKNW{
+  color: White;
 
-   font-family: inherit;
-   font-variant: small-caps;
-
+ width: 100%;
+ height: auto;
 
 }
 
-
-
-.De{
-  display: inline;
-  background-color: #009797;
-   color:  #21D4FD;
-   padding: 5px 20px;
-   text-align: center;
-   text-decoration: none;
-     border-style: solid;
-     border-color: White;
-   font-size: 16px;
-   margin-left: 2px;
-   font-family: inherit;
-   font-variant: small-caps;
-}
-
-.ep{
-  display: inline;
-  background-color: #009797;
-   color:  #21D4FD;
-   padding: 5px 20px;
-   text-align: center;
-   text-decoration: none;
-   border-style: solid;
-   border-color: White;
-   font-size: 16px;
-   margin-left: 2px;
-   font-family: inherit;
-   font-variant: small-caps;
-}
 
 .EQS {
   border-collapse: collapse;
@@ -124,13 +157,7 @@ margin-left: 100px;
 
 
 
-h1
-{
-font-family: 'Satisfy';font-size: 50px;
-margin-left: 500px;
-color: #003333;
 
-}
 
 .PAR{
 
@@ -180,16 +207,7 @@ ul li:hover ul li{
 }
 
 
-.PAI{
-  display: inline;
-  border: 5px;
-  background-color: #92DFF3;
-  padding: 20px;
-  border-radius: 0;
-  color: #003333;
-  margin: 130px;
-  border-style: outset;
-}
+
 
 .DESC{
   background-color: lightgrey;
@@ -397,6 +415,28 @@ h4
   padding: 1px;
 }
 
+.TRW, .TDW{
+  background-color: #92DFF3;
+  text-align: left;
+  padding: 15px;
+}
+
+.ASDF{
+  width: 100%;
+}
+.DOA{
+  background-color: #92DFF3;
+  text-align: Center;
+}
+.DOB {
+  background-color: #92DFF3;
+  text-align: Left;
+  padding: 15px;
+  width: 50%;
+  height: 10px;
+
+}
+
 
 
 
@@ -420,10 +460,8 @@ h4
 h5
 {
   font-family: 'Satisfy';font-size: 100px;
-  margin-left: 500px;
-  margin-top: 150px;
   color: #003333;
-  width: 80px;
+  width: 80%;
 }
 
 .MAIL{
@@ -492,4 +530,69 @@ h5
 
 .TCS{
   width: 80%;
+}
+
+.Updated2{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.Updated3{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+.Updated1{
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.Last{
+  background-color: #2C3E50;
+  color: white;
+  padding: 10px;
+}
+
+.CDO{
+  color: white;
+}
+
+.HIREME{
+  border-radius: 10px;
+
+  width: 130px;
+  height: 40px;
+}
+
+.fa {
+
+  font-size: 28px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 30px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+
+.fa-phone {
+  background: green;
+  color: white;
+}
+
+.CDO{
+  font-family: cursive;
+  font-size: 10px;
 }
